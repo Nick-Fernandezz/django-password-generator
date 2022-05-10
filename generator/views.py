@@ -2,13 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import random
 
-def home(request):
-
-    a = 'Test test'
-    b = 123
-
-    return render(request, 'generator/home.html', {'a': f'{a}', 'b': f'{b}'})
-
 
 def password(request):
 
